@@ -23,7 +23,7 @@ const Checkbox: React.FC<CheckboxProps> = ({ field_id, field_label, field_value 
             onChange={event=>handleChange(field_id, event)}
         />
         <label className="form-check-label" htmlFor={field_id}>
-          Check me out
+          {field_label}
         </label>
     </div>
   );
